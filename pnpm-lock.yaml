@@ -41,6 +41,9 @@ importers:
       shiki:
         specifier: ^3.3.0
         version: 3.4.0
+      zod:
+        specifier: ^3.24.4
+        version: 3.24.4
     devDependencies:
       '@react-router/dev':
         specifier: ^7.5.3
