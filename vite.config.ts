@@ -8,6 +8,7 @@ export default defineConfig({
     rollupOptions: {
       external: ['shiki'],
     },
+    target: 'esnext',
   },
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
 });
